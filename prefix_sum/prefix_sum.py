@@ -49,7 +49,9 @@ logs = [
 
 #output example 
 # (n + 1) X (m + 1) matrix
-
+"""
+ex) kakao 파괴되지 않은 건물
+"""
 def prefix_sum_2d(board, logs):
     n = len(board)
     m = len(board[0])
